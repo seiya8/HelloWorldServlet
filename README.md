@@ -106,7 +106,7 @@ $ tree .
 │     │  │     └── example
 │     │  │        └── HelloWorldServlet.java
 │     │  └── resources
-|     └── webapp
+│     └── webapp
 │        └── WEB-INF
 │           └── web.xml
 │     └── test
