@@ -107,8 +107,8 @@ $ tree .
 │     │  │        └── HelloWorldServlet.java
 │     │  └── resources
 │     └── webapp
-│        └── WEB-INF
-│           └── web.xml
+│     │  └── WEB-INF
+│     │     └── web.xml
 │     └── test
 │        ├── java
 │        │  └── org
