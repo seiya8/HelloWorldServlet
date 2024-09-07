@@ -93,6 +93,31 @@ public class HelloWorldServlet extends HttpServlet {
 </web-app>
 
 ```
+`./app/build.gradle`:
+```
+plugins {
+    id 'war'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+    providedRuntime 'org.apache.tomcat:tomcat:10.1.28'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+tasks.named('war') {
+    archiveFileName = 'helloworld.war'
+}
+```
 
 ```bash
 $ tree .
