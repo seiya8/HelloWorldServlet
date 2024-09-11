@@ -83,7 +83,7 @@ public class HelloWorldServlet extends HttpServlet {
     }
 }
 ```
-`./app/src/webapp/WEB-INF/web.xml`:
+`./app/src/main/webapp/WEB-INF/web.xml`:
 ```xml
 <web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
